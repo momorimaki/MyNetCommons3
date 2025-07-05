@@ -1,43 +1,61 @@
 {
-    "name":        "netcommons/netcommons3",
+    "name": "netcommons/netcommons3",
     "description": "NetCommons3",
-    "type":        "cms",
-    "keywords":    ["CMS"],
-    "homepage":    "http://www.netcommons.org/",
+    "type": "cms",
+    "keywords": [
+        "CMS"
+    ],
+    "homepage": "http://www.netcommons.org/",
     "license": "LicenseRef-NetCommons",
     "license-ref-net-commons": "https://raw.githubusercontent.com/NetCommons3/NetCommons3/master/license.txt",
     "authors": [
         {
-            "name":     "NetCommons Community",
+            "name": "NetCommons Community",
             "homepage": "https://github.com/NetCommons3/NetCommons3/graphs/contributors"
         }
     ],
     "extra": {
         "installer-paths": {
-            "app/Plugin/{$name}": ["type:cakephp-plugin"]
+            "app/Plugin/{$name}": [
+                "type:cakephp-plugin"
+            ]
         }
     },
-    "repositories": [
-        {"type": "vcs", "url": "https://github.com/NetCommons3/cakephp-upload.git"},
-        {"type": "vcs", "url": "https://github.com/NetCommons3/php-code-coverage.git"},
-        {"type": "vcs", "url": "https://github.com/NetCommons3/migrations.git"}
-    ],
+    "repositories": {
+        "MyWidgets": {
+            "type": "vcs",
+            "url": "https://github.com/momorimaki/MyWidgets.git"
+        },
+        "0": {
+            "type": "vcs",
+            "url": "https://github.com/NetCommons3/cakephp-upload.git"
+        },
+        "1": {
+            "type": "vcs",
+            "url": "https://github.com/NetCommons3/php-code-coverage.git"
+        },
+        "2": {
+            "type": "vcs",
+            "url": "https://github.com/NetCommons3/migrations.git"
+        }
+    },
     "require": {
         "composer/installers": "~1.0@stable",
-        "cakephp/cakephp":              "~2.10@stable",
+        "cakephp/cakephp": "~2.10@stable",
         "cakedc/migrations": "~2.2@stable",
-        "mustangostang/spyc":           "~0.6.2@stable",
-        "netcommons/install":           "@stable",
+        "mustangostang/spyc": "~0.6.2@stable",
+        "netcommons/install": "@stable",
         "josegonzalez/cakephp-upload": "~2.0@stable",
-        "jms/serializer":               "1.1.0@stable"
+        "jms/serializer": "1.1.0@stable",
+        "netcommons/my-widgets": "@dev"
     },
     "require-dev": {
-        "cakephp/cakephp-codesniffer":  "~1.0@stable",
-        "phpdocumentor/phpdocumentor":  "2.*@stable",
-        "phpmd/phpmd" :                 "~2.6.0@stable",
-        "phpunit/phpunit":              "~5.7@stable",
-        "php-coveralls/php-coveralls":  "~2.0@stable",
-        "sebastian/phpcpd":             "*@stable"
+        "cakephp/cakephp-codesniffer": "~1.0@stable",
+        "phpdocumentor/phpdocumentor": "2.*@stable",
+        "phpmd/phpmd": "~2.6.0@stable",
+        "phpunit/phpunit": "~5.7@stable",
+        "php-coveralls/php-coveralls": "~2.0@stable",
+        "sebastian/phpcpd": "*@stable"
     },
     "bin": [
         "lib/Cake/Console/cake"
@@ -47,12 +65,17 @@
         "process-timeout": 3000,
         "allow-plugins": {
             "composer/installers": true
+        },
+        "preferred-install": {
+            "netcommons/*": "source"
         }
     },
     "scripts": {
-        "post-install-cmd": ["app/Console/cake install.install install_bower"],
+        "post-install-cmd": [
+            "app/Console/cake install.install install_bower"
+        ],
         "post-update-cmd": [
             "app/Console/cake install.install install_bower"
-         ]
+        ]
     }
 }
