@@ -1,0 +1,16 @@
+/**
+ * likes/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+.like-icon {
+	margin-right: 16px;
+	display: inline-block;
+	line-height: 1;
+}
+.like-icon:last-child {
+	margin-right: 0px;
+}

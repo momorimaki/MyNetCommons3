@@ -1,0 +1,83 @@
+/**
+ * videos/css/style.css
+ *
+ * @author Mitsuru Mutaguchi <mutaguchi@opensource-workshop.jp>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ * @copyright Copyright 2014, NetCommons Project
+ */
+
+/* 行間 */
+.video-margin-row {
+	margin-bottom: 10px;
+}
+
+/* 一覧の再生数やコメント数等の表示 */
+.video-count-icons {
+	padding-right: 15px;
+}
+
+/* 一覧のサムネイル表示 */
+.video-thumbnail-row {
+	padding: 10px 0px;
+}
+/* 関連動画の一覧 */
+.related-video > .video-thumbnail-row {
+	padding: 5px;
+	margin: 0px 0px 5px 0px;
+}
+.video-thumbnail-image {
+	width: 140px;
+	height: auto;
+}
+
+/* 一覧の動画再生時間 */
+.video-time-width {
+	width: 140px;
+}
+.video-time-position {
+	margin-top: -20px;
+	margin-right: 2px;
+}
+.video-time-color {
+	background-color: #000;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 11px;
+	opacity: 0.75;
+	padding: 0px 7px;
+}
+
+/*
+ * --- 詳細画面
+ */
+/* 動画プレーヤー */
+.video-player {
+	max-height: 610px;
+}
+
+/* 詳細 */
+.video-detail {
+	padding: 0.5em 1em;
+	margin-bottom: 0px;
+}
+
+/* 動画説明 */
+.video-description {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* 埋め込みコード */
+.video-embed {
+	display: none;
+}
+
+/* ダウンロードや埋め込みコードのリンク表示 */
+.video-detail-links-row {
+	margin-bottom: 20px;
+}
+.video-detail-links {
+	padding-right: 15px;
+}
+

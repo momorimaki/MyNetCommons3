@@ -1,0 +1,74 @@
+/**
+ * links/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+/**
+ * 一覧表示
+ */
+li.list-group-item.nc-links-li,
+li.list-group-item.nc-links-li-none {
+	border: none;
+	padding: 0px;
+	display: list-item;
+}
+
+.nc-links-li {
+	margin-top: 8px;
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+.nc-links-li-none {
+	margin-top: 8px;
+	/*margin-left: 30px;*/
+	margin-bottom: 15px;
+}
+
+.links-line-none {
+	border: none !important;
+}
+.links-line-none ul.list-group {
+	margin-bottom: 0px;
+}
+
+/**
+ * 一覧表示
+ */
+.link-view-info {
+	margin-bottom: 8px;
+}
+.link-view-info .pull-left {
+	margin-right: 32px;
+}
+
+/**
+ * 表示方法変更
+ */
+hr.nc-links-edit-line {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.nc-input-dropdown .pull-left > hr.nc-links-edit-line {
+	min-width: 100px;
+	width: 250px;
+	max-width: 600px;
+}
+ul.nc-links-edit-mark {
+	padding-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.link-frame-setting-display-type .radio:last-child {
+	margin-bottom: 4px;
+}
+
+/**
+ * 編集画面
+ */
+.link-getbtn {
+	width: 30%;
+}

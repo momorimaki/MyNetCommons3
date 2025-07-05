@@ -1,0 +1,94 @@
+/**
+ * rooms/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+.rooms-tree {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.space-name-edit {
+	border: 0px;
+	display: inline;
+}
+.space-edit-table {
+	margin-bottom: 0px;
+}
+table.space-edit-table > tbody > tr > td {
+	border-top: 0px;
+}
+table > tbody > tr > td .btn.btn-xs, .btn-xs.nc-btn-style.space-edit-rooms-roles-users {
+	margin-left: 32px;
+}
+
+/**
+ * ルーム一覧
+ */
+.rooms-index-room-name {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 240px;
+	display: inline-block;
+	vertical-align: middle;
+}
+table > tbody > tr > td .rooms-index-updown-btn .btn.btn-xs {
+	margin-left: 0px;
+	margin-right: 5px;
+}
+
+/**
+ * 参加者修正
+ */
+.table > thead > tr > th.rooms-roles-users-checkbox,
+.table > tbody > tr > td.rooms-roles-users-checkbox {
+	padding: 0px;
+}
+.rooms-roles-users-checkbox input[type="checkbox"] {
+	margin: 0px;
+}
+.rooms-roles-users-checkbox label {
+	margin: 0px;
+	display: block;
+	padding: 8px;
+}
+
+.rooms-roles-users-separator {
+	border-left: 1px solid #ddd;
+}
+
+.rooms-change-status {
+	margin-right: 20px;
+}
+
+.rooms-roles-form select.form-control.input-sm {
+	background-color: transparent;
+}
+.rooms-roles-form .pull-left.small {
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+
+.rooms-roles-users-table .checkbox-inline {
+	padding-left: 0px;
+}
+.rooms-roles-users-table label.control-label {
+	padding-left: 0px;
+}
+
+.rooms-manager td {
+	white-space: nowrap;
+}
+
+.room-roles-desc .popover {
+	width: 400px;
+	max-width: 400px;
+}
+.room-roles-desc .popover .room-role-name-desc:not(:first-child) {
+	margin-top: 8px;
+}

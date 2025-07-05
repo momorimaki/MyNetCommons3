@@ -1,0 +1,28 @@
+/**
+ * workflow/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+.workflow-comments > .comment {
+	border-top: 1px solid #ddd;
+	padding: .5em 1em;
+}
+
+.workflow-comments > .comment:first-child {
+	border: 0;
+}
+
+small .workflow-label {
+	font-size: 10px;
+	font-weight: 400;
+}
+.workflow-label {
+	font-size: 10px;
+	font-weight: 400;
+	vertical-align: middle;
+	/*margin-left: 8px;*/
+	margin-right: 8px;
+}

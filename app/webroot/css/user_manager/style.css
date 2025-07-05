@@ -1,0 +1,55 @@
+/**
+ * user-manager/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+/**
+ * 会員詳細
+ */
+.user-manager-view.well {
+	margin-bottom: 12px;
+}
+
+/**
+ * 参加ルームの選択
+ */
+.plugin-user-manager .table > thead > tr > th.users-roles-rooms-all-select {
+	vertical-align: middle;
+}
+
+.plugin-user-manager .table > tbody > tr > td.users-roles-rooms-select {
+	padding: 0px;
+}
+.plugin-user-manager .table > tbody > tr > td.users-roles-rooms-select > label {
+	display: block;
+	margin-bottom: 0px;
+	padding: 8px;
+}
+
+.plugin-user-manager .user-manager-check-notify {
+	margin-left: 3px;
+}
+
+.plugin-user-manager .user-manager-check-notify .checkbox.checkbox-inline {
+	padding-left: 0px;
+}
+
+/**
+ * エクスポート
+ */
+.user-export-header {
+	margin-bottom: 16px;
+}
+
+/**
+ * インポート
+ */
+.user-import.pre-scrollable {
+	max-height: 240px;
+}
+.user-maanger-import-help-options {
+	padding-left: 32px;
+}

@@ -47,7 +47,7 @@
         "netcommons/install": "@stable",
         "josegonzalez/cakephp-upload": "~2.0@stable",
         "jms/serializer": "1.1.0@stable",
-        "netcommons/my-widgets": "@dev"
+        "netcommons/my-widgets": "@stable"
     },
     "require-dev": {
         "cakephp/cakephp-codesniffer": "~1.0@stable",

@@ -1,0 +1,310 @@
+
+.photo-albums-frame-setting-display-type {}
+.photo-albums-frame-setting-display-type .radio {}
+.photo-albums-frame-setting-display-type .checkbox {
+	margin: 0 0 0 40px;
+}
+.photo-albums-frame-setting-list {
+	max-height:320px;
+	overflow: auto;
+	border-top: 1px solid #ddd;
+}
+.photo-albums-frame-setting-list .photo-albums-setting-list > tbody > tr > td {
+	padding: 2px 8px;
+}
+.photo-albums-frame-setting-page-group {
+	/*margin:0 0 0 10%;*/
+}
+
+.photo-albums-photo-list-operation {
+	margin: 8px 0;
+}
+
+.photo-albums-album-list-panel {
+	/* 枠なし用定義
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-radius: 0;
+	box-shadow: none
+	*/
+}
+.photo-albums-album-list-panel .panel-body{
+	/* 枠なし用定義
+	padding: 16px 0 8px 0;
+	*/
+}
+.photo-albums-album-list-alert {
+	margin: 0 0 8px 0;
+}
+.photo-albums-album-list-status{}
+.photo-albums-album-list-alert .alert {
+	padding: 4px 35px 4px 4px;
+	min-width: 90%;
+	margin: 0;
+}
+.photo-albums-album-list-alert a {
+	margin: 0 8px;
+}
+.photo-albums-thumbnail {
+	/* 画像固定用定義
+	background-color: #e5e5e5;
+	width: 184px;
+	height: 152px;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0;
+	*/
+	margin: 0;
+}
+.photo-albums-thumbnail img {
+	/* 画像固定用定義
+	max-width: 184px;
+	max-height: 152px;
+	*/
+}
+.photo-albums-album-note {}
+.photo-albums-album-note span{
+	margin: 0 8px 0 0;
+}
+.photo-albums-album-list-panel .photo-albums-description {
+	margin: 8px 0 0 0;
+	/*
+	height: 8em;
+	overflow: hidden;
+	*/
+}
+
+.photo-albums-selected-jacket {}
+.photo-albums-selected-jacket .thumbnail {
+	margin: 1.7em 0 0 0;
+}
+.photo-albums-selected-jacket .photo-albums-thumbnail-not-selected,
+.photo-albums-preview-list .photo-albums-thumbnail-not-selected {
+	height: 184px;
+}
+.photo-albums-preview-list {
+	max-width:616px;
+	max-height:304px;
+	overflow: auto;
+}
+.photo-albums-preview-list .photo-albums-thumbnail-not-selected {
+	line-height: 184px;
+	vertical-align: middle;
+}
+.photo-albums-preview-list .photo-albums-preview-photo {
+	float: left;
+	margin: 4px;
+}
+.photo-albums-preview-list .thumbnail{
+	background-color: #e5e5e5;
+	width: 88px;
+	height: 64px;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0;
+}
+.photo-albums-preview-list img {
+	/* thumbnailのborder分(2px)マイナス */
+	max-width: 86px;
+	max-height: 62px;
+}
+
+.photo-albums-album-information {
+	margin: 0 0 24px;
+}
+.photo-albums-album-edit-link {}
+.photo-albums-album-information .photo-albums-album-list-status{
+	display: block;
+	margin-top: 0.8em;
+}
+
+.photo-albums-setting-list {}
+.photo-albums-setting-list > tbody > tr > td {
+	vertical-align: middle;
+}
+.photo-albums-setting-thumbnail {
+	background-color: #e5e5e5;
+	width: 72px;
+	height: 64px;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+}
+.photo-albums-setting-thumbnail img {
+	max-height: 56px;
+}
+.photo-albums-setting-list .photo-albums-name {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 0 0 8px;
+}
+
+.photo-albums-photo-list {
+	margin: 0 0 16px 0;
+}
+.photo-albums-photo-list > div {
+	padding: 0 4px 0 0;
+}
+.photo-albums-photo-list .thumbnail {
+	margin: 0 0 8px 0;
+}
+.photo-albums-photo-thumbnail {
+	background-color: #e5e5e5;
+	position: relative;
+	/*
+	width: 184px;
+	height: 152px;
+	max-height: 240px;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0;
+	margin: 0 0 8px 0;
+	*/
+}
+.photo-albums-photo-thumbnail img {
+	width: 100%;
+	height: 100%;
+}
+.photo-albums-photo-description {
+	height: 1.3em;
+	white-space: nowrap;
+	width: 100%;
+	margin: 4px 4px 0;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+.photo-albums-photo {
+	min-height: 152px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+.photo-albums-photo-list .photo-albums-photo {
+	background-position: center center;
+}
+.photo-albums-photo-list-status {
+	position: absolute;
+	top: 0;
+}
+.photo-albums-photo-list-status .label {
+	display: block
+}
+.photo-albums-photo-action-bar {
+	width: 100%;
+	text-align: right;
+	position: absolute;
+	bottom: 1px;
+}
+.photo-albums-photo-action-bar form {
+	display: inline;
+}
+
+.photo-albums-slide-modal .modal-dialog {
+	width: 95%;
+	height: 95%;
+}
+.photo-albums-slide-modal .modal-content {
+	background-color: rgba(0, 0, 0, .8);
+}
+.photo-albums-slide-modal .modal-content,
+.photo-albums-slide-modal .carousel,
+.photo-albums-slide-modal .carousel-inner,
+.photo-albums-slide-modal .carousel-inner > .item > div,
+.modal-dialog .photo-albums-slide-photo {
+	height: 100%;
+}
+.photo-albums-slide-modal .carousel-inner > .item {
+	width: 80%;
+	height: calc(100% - 88px);
+	position: absolute;
+	left: 10%;
+}
+.photo-albums-slide-photo {
+	/*height: 400px;*/
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: cover;
+}
+
+.carousel-caption {
+	width: 100%;
+	background: rgba(0, 0, 0, .5);
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	/*
+	max-height: 3em;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	*/
+}
+.modal-dialog div.photo-albums-slide-photo {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+.modal-content .carousel-indicators {
+	width: 100%;
+	/* min-width: 296px; */
+	left: 0%;
+	bottom: 0px;
+	margin: auto;
+	color: #fff;
+}
+.modal-content .carousel-indicators li,
+.modal-content .carousel-indicators li > img {
+	width: 56px;
+	height: 56px;
+}
+.modal-content .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	cursor: pointer;
+	border: 0;
+	background-color: rgba(0, 0, 0, 0);
+}
+.carousel-indicators .active > img {
+	border: 2px solid #fff;
+}
+.modal-content .carousel-indicators li > img {
+	display: block;
+}
+/* スライダー（carousel）の両側の影を消す */
+.carousel-control.right,
+.carousel-control.left{
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
+	background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
+	background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,.5)));
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
+}
+
+.photo-albums-slide-modal-close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 8px 8px 0 0;
+	font-size: 1.5em;
+	color: #fff;
+	opacity: .7;
+	display: none;
+}
+.modal-content .photo-albums-slide-modal-close {
+	display: block;
+}

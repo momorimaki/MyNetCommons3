@@ -1,0 +1,116 @@
+.task-content {
+    padding-top: 16px;
+}
+
+.task-view-table-cell-1 {
+    width: 135px;
+    display: table-cell;
+    padding-bottom: 5px;
+}
+
+.task-view-table-cell-2 {
+    width: 60px;
+    display: table-cell;
+}
+
+.task-view-table-cell-3 {
+    width: auto;
+    display: table-cell;
+    padding-right: 5px;
+}
+
+.table>tbody>tr>td.task-index-content-text-middle {
+    vertical-align: middle;
+}
+
+.task-index-priority-1 {
+    position: absolute;
+}
+
+.task-index-priority-2 {
+    position: relative;
+    bottom: 12px;
+}
+
+.task-index-progress {
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+.task-view-progress {
+    height: 32px;
+    margin-left: 5px;
+}
+
+.task-category-name-margin {
+    border-bottom-width: 5px;
+}
+
+.task-view-table {
+    display: table;
+}
+
+.task-view-table-cell {
+    display: table-cell;
+}
+
+.task-view-user-top {
+    vertical-align: top;
+}
+
+.task-view-content-top {
+    margin-top: 10px;
+}
+
+.task-view-padding-top {
+    padding-top: 8px;
+}
+
+.task-index-space {
+    margin-bottom: 4px;
+}
+
+.task-content-margin-1 {
+    margin-bottom: 20px;
+}
+
+.task-content-margin-2 {
+    margin-bottom: 10px;
+}
+
+.task-content-margin-3 {
+    margin-right: 10px
+}
+
+.task-width-auto {
+    width: auto;
+}
+
+.task-progress-width-index {
+    width: 250px;
+}
+
+.task-progress-width-view {
+    width: 300px;
+}
+
+.task-word-break {
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow-wrap : break-word;
+}
+
+@media screen and (max-width: 768px) {
+    .task-progress-width-index {
+        width: 150px;
+    }
+    .task-progress-width-view {
+        width: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .task-date-font {
+        font-size: 11px;
+    }
+}

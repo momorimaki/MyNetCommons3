@@ -1,0 +1,13 @@
+/**
+ * categories/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+.category-dropdown-toggle {
+	min-width: 125px;
+	max-width: 300px;
+	text-align: left;
+}

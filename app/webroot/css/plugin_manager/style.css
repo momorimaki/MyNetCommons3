@@ -1,0 +1,42 @@
+/**
+ * plugin_manager/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+ul.plugin-manager-autors-ul {
+	margin-bottom: 0px;
+	list-style-type: disc;
+	padding-left: 16px;
+}
+ul.plugin-manager-autors-ul > li {
+	padding-right: 16px;
+}
+
+.plugin-manager-list:first-child {
+	margin-top: 4px;
+}
+.plugin-manager-list:last-child {
+	margin-bottom: 4px;
+}
+.plugin-manager-list {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.plugin-manager-description {
+	margin-bottom: 24px;
+}
+
+.plugin-checkbox-outer > .checkbox {
+	width: 12em;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	float: left;
+	white-space: nowrap;
+}
+
+.plugin-version {
+	overflow-wrap : break-word;
+}

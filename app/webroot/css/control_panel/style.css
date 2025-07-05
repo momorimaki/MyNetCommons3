@@ -1,0 +1,85 @@
+/**
+ * control_panel/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+@media (min-width: 768px) {
+	.control-panel-nav nav {
+		margin-top: 16px;
+	}
+	.control-panel-nav .list-group {
+		margin-bottom: 0px;
+	}
+}
+@media (max-width: 767px) {
+	.control-panel-nav nav button {
+		margin: 5px;
+	}
+	.control-panel-nav .list-group {
+		margin: 10px;
+	}
+}
+
+.control-panel-nav .navbar-collapse {
+	padding: 0px;
+}
+
+.control-panel .table th input.form-control {
+	margin-bottom: 5px;
+	height: auto;
+}
+.control-panel .table td {
+	vertical-align: middle;
+}
+.control-panel article h2.nc-title-in-panel {
+	margin-top: 0px;
+}
+
+.control-panel-subtitle {
+	margin-left: 10px;
+}
+
+.control-panel article  h1,
+.control-panel article  .h1,
+.control-panel article  h2,
+.control-panel article  .h2,
+.control-panel article  h3,
+.control-panel article  .h3 {
+	margin-top: 16px;
+	margin-bottom: 10px;
+}
+.control-panel article  h1 small,
+.control-panel article  .h1 small,
+.control-panel article  h2 small,
+.control-panel article  .h2 small,
+.control-panel article  h3 small,
+.control-panel article  .h3 small,
+.control-panel article  h1 .small,
+.control-panel article  .h1 .small,
+.control-panel article  h2 .small,
+.control-panel article  .h2 .small,
+.control-panel article  h3 .small,
+.control-panel article  .h3 .small {
+	font-size: 75%;
+}
+
+.control-panel article  h1,
+.control-panel article  .h1 {
+	font-size: 28px;
+}
+.control-panel article  h2,
+.control-panel article  .h2 {
+	font-size: 20px;
+}
+.control-panel article  h3,
+.control-panel article  .h3 {
+	font-size: 16px;
+}
+
+.control-panel article h3.popover-title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

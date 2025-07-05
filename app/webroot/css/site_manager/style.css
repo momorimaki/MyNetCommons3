@@ -1,0 +1,34 @@
+/**
+ * site＿manager/css/style.css
+ *
+ * @author Noriko Arai <arai@nii.ac.jp>
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ * @copyright Copyright 2014, NetCommons Project
+ */
+
+.site-manager-help {
+	padding: 8px;
+	margin-top: 0px;
+}
+
+/**
+ * 入会・退会設定
+ */
+ul.automatic-user-attribute {
+	padding-left: 0px;
+}
+ul.automatic-user-attribute li.list-group-item {
+	padding: 4px 8px;
+}
+ul.automatic-user-attribute li.list-group-item .pull-left {
+	margin-right: 16px;
+}
+ul.automatic-user-attribute .user-attributes-display-btn {
+	min-width: 64px;
+}
+.automatic-input-items .panel-heading {
+	cursor: pointer;
+	font-weight: bold;
+}

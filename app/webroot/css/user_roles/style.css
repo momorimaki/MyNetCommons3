@@ -1,0 +1,44 @@
+/**
+ * user_roles/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+.table.user-roles-origin-role-key {
+	margin-bottom: 0px;
+}
+
+.form-group.user-attribute-roles-edit {
+	margin-bottom: 8px;
+}
+
+.user-attribute-roles-edit > .input-group {
+	width: 100%;
+}
+.user-attribute-roles-edit label {
+	width: 36%;
+	text-align: left;
+}
+.user-attribute-roles-edit select.form-control {
+	width: 100%;
+}
+
+label.user-roles-label {
+	margin-right: 30px;
+}
+
+.user-attribute-roles-edit .input-group-addon {
+	background-color: transparent;
+}
+
+div.col-sm-6 .user-attribute-roles-edit label.input-group-addon {
+	overflow: hidden;
+	max-width: 152px;
+}
+
+.modal.user-role-modal > .modal-dialog {
+	width: auto;
+	max-width: 800px;
+}

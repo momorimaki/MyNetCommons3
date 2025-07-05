@@ -1,0 +1,88 @@
+
+.circular-notice-spacer {
+	border: 0 none transparent;
+}
+
+.circular-notices-navigation-header {
+	margin-bottom: 10px;
+}
+
+.circular-notices-navigation-header .btn {
+	margin-bottom: 4px;
+}
+
+.circular-notices {
+	/*padding-top: 16px;*/
+}
+
+.circular-notice-edit-link {
+	margin: 6px 0;
+}
+
+.circular-notice-answer-status {
+	padding: 2px 16px 0 0;
+}
+
+.circular-notice-publish-period {
+	padding: 0 0 2px 0;
+}
+
+.circular-notice-answer-deadline {
+    padding: 2px 0 2px 0;
+}
+
+.circular-notice-created-user {
+	padding: 2px 0 0 0;
+}
+
+.circular-notice-index-status-label {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.circular-notices-content {
+	padding: 10px 0 10px 0 ;
+}
+
+.circular-notice-answer-choice {
+	padding: 0 0 20px 0;
+}
+
+.circular-notice-answer-choice-choices {
+	margin: 0 4px 0 8px;
+}
+
+.circular-notices-show-other-users {
+	margin: 20px 0 0 0 ;
+}
+
+.circular-notices-answer-count-molecule {
+	margin: 0 2px;
+}
+
+.circular-notices-answer-count-denominator {
+	margin: 0 2px;
+}
+
+.circular-notices-edit-period {
+	margin-bottom: 16px;
+}
+
+.circular-notices-target-users {
+	margin-bottom: 10px;
+}
+
+.circular-notices-target-users-list {
+	margin-top: 20px;
+}
+
+.table > thead > tr > th.circular-notices-reply-col,
+.table > tbody > tr > td.circular-notices-reply-col {
+	width: 30%;
+    padding-left: 8%;
+}
+
+.circular-notices-word-break {
+	word-break: break-all;
+	word-wrap: break-word;
+}

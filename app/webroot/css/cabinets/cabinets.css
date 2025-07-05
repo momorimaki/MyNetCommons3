@@ -1,0 +1,143 @@
+.cabinets__folder-tree__folder {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cabinets__folder-tree__folder .glyphicon-hdd {
+    margin-right: 0.5em;
+}
+
+.cabinets__folder-tree__folder .glyphicon-folder-close {
+    margin-right: 0.5em;
+}
+
+.cabinets__folder-tree__folder .glyphicon-folder-open {
+    margin-right: 0.5em;
+}
+
+.cabinets-folder-tree li.list-group-item {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*.cabinets__folder-tree__folder:hover{*/
+/*background: #ccc;*/
+/*}*/
+.cabinets__folder-tree-toggle {
+    cursor: pointer;
+}
+
+span.cabinets-nest {
+    margin-left: 15px;
+}
+
+span.cabinets__file-list-icon {
+    margin-right: 1em;
+    /*font-size:20px;*/
+}
+
+.cabinets__index__file-path {
+    margin-bottom: 15px;
+}
+
+.cabinets__thumb {
+    width: 20px;
+    margin-right: 1em;
+    /*height: 20px;*/
+}
+
+dl.cabinets__detail dd {
+    margin-bottom: 15px;
+}
+
+.cabinets__detail-label {
+    font-weight: bold;
+}
+
+.cabinets__index__file-list {
+    table-layout: fixed;
+}
+
+.cabinets__index__name {
+    width: 56%;
+}
+
+.cabinets__index__size {
+    white-space: nowrap;
+    text-align: right;
+    /*width: 15%;*/
+}
+
+.cabinets__index__modified {
+    white-space: nowrap;
+    text-align: right;
+    /*width: 15%;*/
+}
+
+.cabinets__index__button{
+    /*width:8%;*/
+    width:40px;
+}
+table > tbody > tr > td.cabinets__index__button .btn.btn-xs {
+    margin-left: 0px;
+}
+.cabinets__index__description {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* Extra small */
+/*@media (max-width: 768px) {*/
+/*.cabinets__index__description {*/
+/*width:200px;*/
+/*}*/
+/*}*/
+/*!* Small *!*/
+/*@media (min-width: 768px) {*/
+/*.cabinets__index__description {*/
+/*width:10em;*/
+/*}*/
+/*}*/
+
+/* この下つかってないかも */
+
+.cabinets_navigation_header {
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.cabinets_file {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+
+.cabinets_file_title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+.cabinets_file_meta {
+    font-size: small;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.cabinets_file_status {
+    text-align: right;
+    float: right;
+}
+
+
+.cabinets_file_reaction {
+    margin-top: 20px;
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.cabinets_file_reaction div.pull-left {
+    margin-right: 10px;
+}

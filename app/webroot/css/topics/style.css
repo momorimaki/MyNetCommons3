@@ -1,0 +1,91 @@
+/**
+ * topics/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+/**
+ * 新着一覧
+ */
+article.topic-row-outer {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top: 1px solid #ccc;
+}
+article.topic-row-outer:first-child {
+	border-top: none;
+}
+
+article.topic-row-outer .pull-left {
+	margin-right: 12px;
+	line-height: 24px;
+}
+
+article.topic-row-outer .pull-left:last-child {
+	margin-right: 0px;
+}
+
+article .topic-title {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 100%;
+	font-size: 16px;
+}
+
+article .topic-plugin-name.small > .label,
+article .topic-status.small > .label {
+	font-size: 90%;
+}
+
+.topic-summary {
+	margin-left: 16px;
+	margin-top: 4px;
+	/*display: block;*/
+	max-height: 4em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/*white-space: nowrap;*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.topic-thumbnail {
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.frame.nc-content-list article h2.topic-plugin-name,
+.frame.nc-content-list article h2.topic-room-name {
+	margin-top: 16px;
+	margin-bottom: 0px;
+}
+
+/**
+ * 新着設定
+ */
+.topics-display > .form-group {
+	width: 12em;
+	float: left;
+}
+.topics-display > .form-group > .checkbox {
+	margin: 0px;
+}
+
+.topics-frame-rooms {
+	max-height: 250px;
+	overflow: auto;
+}
+.topics-frame-rooms dl {
+	margin-bottom: 0px;
+}
+.topics-frame-rooms dl dd.form-group:last-child {
+	margin-bottom: 0px;
+}
+
+.topics-frame-block select:not(:first-child) {
+	margin-left: 8px;
+}

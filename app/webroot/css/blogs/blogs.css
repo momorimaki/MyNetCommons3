@@ -1,0 +1,57 @@
+.blogs_navigation_header {
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.blogs_entry {
+    /* @see NetCommons/webroot/css/style.css
+	.frame.nc-content-list article h2のmargin-topとあわせた*/
+    padding-top: 16px;
+}
+.blogs_entry:first-child {
+    padding-top: 0px;
+}
+
+.blogs_entry_title {
+    /*margin-top: 0px;*/
+    /*margin-bottom: 20px;*/
+
+}
+
+.blogs_entry_meta {
+    font-size: small;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+/* 一覧 */
+.blogs_entry_status {
+    /*text-align: right;*/
+    /*float:right;*/
+}
+
+.blogs_entry_body1 {
+    margin-bottom: 20px;
+}
+
+.blogs_entry_reaction {
+    margin-top: 20px;
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.blogs_entry_reaction div.pull-left{
+    margin-right: 10px;
+}
+/*.blogs__content-comment-count{*/
+    /*padding-right: 15px;*/
+/*}*/
+
+.blogs_view_title{
+    /*position: relative;*/
+}
+.blogs_view_title h1 .label{
+    /*margin-left: 10px;*/
+}
+.blogs_view_status{
+}

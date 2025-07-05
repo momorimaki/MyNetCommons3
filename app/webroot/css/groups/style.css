@@ -1,0 +1,77 @@
+.nc-groups-select-user-frame {
+	text-align: left;
+	border: 1px solid #999;
+	overflow: auto;
+}
+
+.nc-groups-selection-list {
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px 10px;
+}
+
+.nc-groups-group-name {
+	width: 25%;
+}
+
+.nc-groups-select-group-name {
+	min-width: 120px;
+	display:inline-block;
+	white-space: normal;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.vertical-top {
+	vertical-align: top;
+}
+
+@media (min-width: 0px) {
+	.nc-groups-members {
+		width: 100px;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+}
+
+@media (min-width: 768px) {
+	.nc-groups-user-selection-list {
+		min-width: 200px;
+	}
+	.nc-groups-members {
+		width: 75%;
+		overflow: hidden;
+		white-space: normal;
+	}
+}
+
+.nc-groups-user-selection-list {
+	margin: 0 10px 10px 0;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+.nc-groups-select-user-name {
+	margin: 0 8px 0 4px;
+}
+
+.nc-groups-show-add-btn {
+	font-size: 10px;
+	margin-top: 4px;
+}
+
+.nc-groups-user-select {
+	margin: 8px 0;
+}
+
+.nc-groups-search-separator {
+	margin: 0 8px;
+}
+
+.nc-groups-break-word {
+	word-break: break-all;
+	word-wrap: break-word;
+}

@@ -1,0 +1,106 @@
+/*--一覧画面での表示域余白調節---*/
+.quiz-index-title {
+    padding-top: 1em;
+}
+/*--時間目安、合格点などサブ説明のテキスト表示---*/
+.quiz-passing-text {
+    margin-right:1.5em;
+}
+/*--小テスト一覧画面の編集者向け詳細情報枠---*/
+.quiz-editor-dl {
+    margin:0px;
+    clear: left;
+}
+.quiz-editor-dl dt {
+    float:left;
+    margin-right:1em;
+}
+.quiz-editor-dl dd {
+    float:left;
+    margin-right:4em;
+}
+@media screen and (max-width:767px) {
+    .quiz-editor-dl dt {
+        min-width:5em;
+    }
+    .quiz-editor-dl dd {
+        float:none;
+    }
+}
+/*--小テスト追加画面の過去の小テストセレクトリスト用---*/
+.quiz-select-box {
+    height:150px;
+    overflow-y: scroll;
+    list-style:none;
+    padding:0px;
+}
+.quiz-select-box li {
+    padding:0px 0.5em
+}
+/*--小テスト編集画面のページ追加タブスタイル--*/
+.quiz-add-page-tab {
+    display: block;
+    padding: 10px 25px;
+    float: left;
+}
+/*--小テスト編集画面の質問アコーディオンスタイル---*/
+/*--アンケート編集画面の質問アコーディオンスタイル---*/
+#nc-quizzes-question-edit .panel-title {
+    margin:0px;
+}
+.quiz-accordion-header-title {
+    line-height:2em;
+    padding-left:0.5em;
+    font-size:16px;
+}
+/*--小テスト編集画面の編集不可になった質問文---*/
+.quiz-edit-disabled-well {
+    margin-bottom:0px;
+}
+/*--小テスト編集画面の選択肢リスト---*/
+.quiz-edit-choice-list-group {
+    margin-bottom: 5px;
+}
+/*--小テスト編集画面の「正解にする」---*/
+.quiz-edit-correct-option {
+    margin-right:15px;
+}
+.quiz-edit-correct-option .control-label {
+    padding-top:0px;
+}
+.quiz-edit-multiple-word-area {
+    padding-top:0.5em;
+    padding-bottom:1em;
+}
+.quiz-edit-add-word-area {
+    margin-top:0.3em;
+}
+/*-- 採点画面 --*/
+dl.quiz-grading-data dt{
+    padding:0.2em 1em 0em;
+    border-radius: 4px 4px 0 0;
+}
+dl.quiz-grading-data dd {
+    padding:0em 1em 0.5em;
+    border-radius: 0 0 4px 4px;
+}
+/*-- 成績データ表 --*/
+.quiz-result-table {}
+.quiz-result-table th {text-align:center;}
+
+/*
+ * 縦スクロールバー付き
+ */
+.quiz-list-wrapper {
+    max-height:450px;
+    overflow-y: scroll;
+}
+
+.quiz-answer-form .checkbox label,
+.quiz-answer-form .radio label {
+    margin-left: 10px;
+}
+.quiz-answer-form .checkbox-inline+.checkbox-inline,
+.quiz-answer-form .radio-inline+.radio-inline {
+    margin-left: 0px;
+}

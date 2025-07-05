@@ -1,0 +1,17 @@
+/**
+ * site_manager/css/style.css
+ *
+ * @author Noriko Arai <arai@nii.ac.jp>
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ * @copyright Copyright 2014, NetCommons Project
+ */
+
+.thumbnail.theme-setting.active {
+	background-color: transparent;
+	padding: 0px;
+}
+.thumbnail.theme-setting.active > div {
+	padding: 4px;
+}
